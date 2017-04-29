@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<AlienRace.BackstoryDef>
+    <defName>ZabrakMonk</defName>
+    <title>Battle monk</title>
+	<titleShort>Monk</titleShort>
+    <baseDescription>NAME was born in an ancient monastery devoted to martial arts. HECAP was raised to master various forms of physical combat and extend his physical limitations.</baseDescription>
+    <slot>Childhood</slot>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <spawnCategories>
+      <li>ZabrakBackstory</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+	  <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+	  <li>
+        <defName>Growing</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+        <li>
+            <defname>Kind</defname>
+            <chance>50</chance>
+        </li>
+        <li>
+            <defname>Brawler</defname>
+        </li>
+    </forcedTraits>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>ZabrakTribal</defName>
+    <title>Tribesman</title>
+	<titleShort>Tribesman</titleShort>
+    <baseDescription>Most of the Zabrak people are simple tribesmen and women, like NAME. A hardy people, due to the harsh environment.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>ZabrakBackstory</li>
+    </spawnCategories>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+	        <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>ZabrakBuilder</defName>
+    <title>Hut builder</title>
+	<titleShort>Builder</titleShort>
+    <baseDescription>Facing the rough winter nights makes you appreciate a good hut. As such, a good builder is a valued member of any Zabrak community.</baseDescription>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>ZabrakBackstory</li>
+    </spawnCategories>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <skillGains>
+      <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+	        <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+        <li>
+            <defname>Kind</defname>
+            <chance>50</chance>
+        </li>
+    </forcedTraits>
+</AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+    <defName>ZabrakSpacer</defName>
+    <title>Spacer zabrak</title>
+    <titleShort>Z-Spacer</titleShort>
+    <baseDescription>NAME was born on the family's moving home - a sublight long-haul cargo cruiser. As one of the few space-faring Zabrak HECAP grew up learning to wheel, deal, and steal enough to keep the ship in spaceworthy condition and delivering cargo on schedule.</baseDescription>
+    <slot>Childhood</slot>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+      <spawnCategories>
+      <li>ZabrakBackstory</li>
+    </spawnCategories>
+    <skillGains>
+          <li>
+        <defName>Construction</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    </AlienRace.BackstoryDef>
+	
+	    <AlienRace.BackstoryDef>
+    <defName>ZabrakAdopt</defName>
+    <title>Adopted alien</title>
+    <titleShort>Adopted</titleShort>
+    <baseDescription>Rescued from a strange escape pod, NAME was taken in and raised by an old farmer and his wife. Though HECAP never got the hang of farming, HIS great strength was a life-saver for the elderly Kents...</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+      <spawnCategories>
+      <li>ZabrakBackstory</li>
+    </spawnCategories>
+    <skillGains>
+          <li>
+        <defName>Growing</defName>
+        <amount>-6</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+        <li>
+        <defName>Crafting</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+	   <workDisables>
+        <li>Firefighting</li>
+	   </workDisables>
+    </AlienRace.BackstoryDef>
+  
+  
+    <AlienRace.BackstoryDef>
+    <defName>ZabrakTribekid</defName>
+    <title>Zabrak tribe kid</title>
+    <titleShort>Zabrak</titleShort>
+    <baseDescription>NAME was born in a small village. HECAP had to learn to carry HIS weight and keep the tribe fed from an early age.</baseDescription>
+    <slot>Childhood</slot>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Growing</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ZabrakBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+    <AlienRace.BackstoryDef>
+
+    <defName>ZabrakCoreKid</defName>
+    <title>Zabrak crafter</title>
+    <titleShort>Crafter</titleShort>
+    <baseDescription>NAME has always been making little things for HIS family. Naturally, they encouraged his skill with craftsmanship, and HECAP is developing into quite the artisan.</baseDescription>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+	  <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>  
+    <spawnCategories>
+      <li>ZabrakBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+    <AlienRace.BackstoryDef>
+    <defName>ZabrakWeapon</defName>
+    <title>Weaponsmith</title>
+    <titleShort>Weaponsmith</titleShort>
+    <baseDescription>NAME found HECAP had a natural talent and love for making blades and weaponry. HECAP has made sure HIS tribe has the finest weapons HECAP can craft.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <workDisables>
+     <li>None</li>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ZabrakBackstory</li>
+    </spawnCategories>  
+  </AlienRace.BackstoryDef>
+  
+    <AlienRace.BackstoryDef>
+
+    <defName>ZabrakMedic</defName>
+    <title>Zabrak healer</title>
+    <titleShort>Healer</titleShort>
+    <baseDescription>NAME tends the wounds of the warriors and hunters wounded in combat, and tends to the more mundane illnesses, fevers and injuries among the tribe. HECAP is very well respected for HIS talents.</baseDescription>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <slot>Adulthood</slot>
+    <workDisables>
+     <li>None</li>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Research</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ZabrakBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+    <AlienRace.BackstoryDef>
+    <defName>ZabrakHunterBS</defName>
+    <title>Zabrak hunter</title>
+    <titleShort>Hunter</titleShort>
+    <baseDescription>NAME is a hunter. HECAP makes sure HIS tribe is well fed, learning the game paths and watering holes. HE makes sure to keep the predators down as well, for HIS own people, and the game they share.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <workDisables>
+     <li>None</li>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Animals</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+	  <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ZabrakBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+  
+  <AlienRace.BackstoryDef>
+    <defName>FighterZabrak</defName>
+    <title>Zabrak fighter</title>
+    <titleShort>Fighter</titleShort>
+    <baseDescription>NAME is a rank-and-file soldier for his tribe. HECAP keeps dangerous creatures or people from attacking the village, sometimes perhaps raiding other tribes for supplies or people... perhaps.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <workDisables>
+     <li>None</li>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <spawnCategories>
+      <li>ZabrakBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  
+    <AlienRace.BackstoryDef>
+    <defName>CMDZabrak</defName>
+    <title>Zabrak champion</title>
+    <titleShort>Champion</titleShort>
+    <baseDescription>NAME is HIS people's champion. HECAP has slain monsters, fought duels, and all the usual champion guff.</baseDescription>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <slot>Adulthood</slot>
+    <workDisables>
+     <li>None</li>
+    </workDisables>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains> 
+    <spawnCategories>
+      <li>ZabrakBackstory</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+    <defName>ZabrakSpacerAdult</defName>
+    <title>Space trader</title>
+    <titleShort>Spacer</titleShort>
+    <baseDescription>NAME was a free-trader, roving the Rim searching for deals and opportunities for profit. Until now, HE was flying a ship, making deals with colonies like these... I wonder what happened?</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+	    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+      <spawnCategories>
+      <li>ZabrakBackstory</li>
+    </spawnCategories>
+    <skillGains>
+          <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>10</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    </AlienRace.BackstoryDef>
+	
+	
+</Defs>

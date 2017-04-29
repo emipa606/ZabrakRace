@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DefPackage-HairDef>
+
+  <HairDef>
+    <defName>ZHorns</defName>
+    <label>ZHorns</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hairs/ZabHorns</texPath>
+		<hairTags>
+			<li>ZabrakHair</li>
+		</hairTags>
+  </HairDef>
+  
+    <HairDef>
+    <defName>ZGronn</defName>
+    <label>ZGronn</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hairs/ZabGronn</texPath>
+		<hairTags>
+			<li>ZabrakHair</li>
+		</hairTags>
+  </HairDef>
+  
+    <HairDef>
+    <defName>ZKnot</defName>
+    <label>ZKnot</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hairs/ZabKnot</texPath>
+		<hairTags>
+			<li>ZabrakHair</li>
+		</hairTags>
+  </HairDef>
+  
+    <HairDef>
+    <defName>ZSokka</defName>
+    <label>ZSokka</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hairs/ZabSokka</texPath>
+		<hairTags>
+			<li>ZabrakHair</li>
+		</hairTags>
+  </HairDef>
+  
+      <HairDef>
+    <defName>ZTrogo</defName>
+    <label>ZTrogo</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hairs/ZabTrogo</texPath>
+		<hairTags>
+			<li>ZabrakHair</li>
+		</hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>XevaZab</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hairs/Xeva</texPath>
+    <defName>XevaZab</defName>
+		<hairTags>
+			<li>ZabrakHair</li>
+		</hairTags>
+  </HairDef>
+ 
+ <HairDef>
+    <label>Tied UpZ</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hairs/LT</texPath>
+    <defName>LTZab</defName>
+		<hairTags>
+			<li>ZabrakHair</li>
+		</hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>WonkyZab</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hairs/SE</texPath>
+    <defName>SEZab</defName>
+		<hairTags>
+			<li>ZabrakHair</li>
+		</hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>VoZunkoZ</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hairs/VoZunko</texPath>
+    <defName>VoZunkoZab</defName>
+		<hairTags>
+			<li>ZabrakHair</li>
+		</hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>VoYukariZab</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hairs/VoYukari</texPath>
+    <defName>VoYukariZab</defName>
+		<hairTags>
+			<li>ZabrakHair</li>
+		</hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>VoONEZab</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hairs/VoONE</texPath>
+    <defName>VoONEZab</defName>
+		<hairTags>
+			<li>ZabrakHair</li>
+		</hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <label>VoKiritanZab</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hairs/VoKiritan</texPath>
+    <defName>VoKiritanZab</defName>
+		<hairTags>
+			<li>ZabrakHair</li>
+		</hairTags>
+  </HairDef>
+  
+</DefPackage-HairDef>

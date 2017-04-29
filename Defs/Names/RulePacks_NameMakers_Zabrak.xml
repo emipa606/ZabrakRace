@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NameMakerDefs>
+
+  <RulePackDef>
+    <defName>NamerPersonZabrak</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[Zabrakfirst] [Zabraklast]</li>
+        <li>name->[badassx] [Zabrakfirst]</li>
+        <li>name->[Zabrakfirst] '[badassx]' [Zabraklast]</li>
+        <li>name->[Zabrakfirst] [badassx]</li>
+
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>Zabrakfirst</keyword>
+          <path>Zabrak_Names/Zabrak</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Zabraklast</keyword>
+          <path>Zabrak_Names/Zabraklast</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badassx</keyword>
+          <path>Zabrak_Names/Concepts_Xen</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+</NameMakerDefs>
