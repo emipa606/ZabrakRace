@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DefPackage-TraderKindDef>
+<Defs>
 
   <TraderKindDef>
     <defName>Visitor_Zabrak_Standard</defName>
@@ -13,7 +13,7 @@
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
-        <thingDef>Component</thingDef>
+        <thingDef>ComponentSpacer</thingDef>
 				<price>Expensive</price>
 				<countRange>
           <min>-2</min>
@@ -32,7 +32,7 @@
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
-        <thingDef>Medicine</thingDef>
+        <thingDef>MedicineIndustrial</thingDef>
         <countRange>
           <min>0</min>
           <max>6</max>
@@ -62,7 +62,6 @@
           <max>2</max>
         </countRange>
       </li>
-      <li Class="StockGenerator_BuyWeirdOrganic" />
       <li Class="StockGenerator_MultiDef">
         <thingDefs>
           <li>Cloth</li>
@@ -72,4 +71,4 @@
     </stockGenerators>
   </TraderKindDef>
 
-</DefPackage-TraderKindDef>
+</Defs>

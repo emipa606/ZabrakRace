@@ -2,11 +2,11 @@
 <Defs>
 
 <AlienRace.BackstoryDef>
-    <defName>ZabrakMonk</defName>
-    <title>Battle monk</title>
+  <defName>ZabrakMonk</defName>
+  <title>Battle monk</title>
 	<titleShort>Monk</titleShort>
-    <baseDescription>NAME was born in an ancient monastery devoted to martial arts. HECAP was raised to master various forms of physical combat and extend his physical limitations.</baseDescription>
-    <slot>Childhood</slot>
+  <baseDescription>NAME was born in an ancient monastery devoted to martial arts. HECAP was raised to master various forms of physical combat and extend his physical limitations.</baseDescription>
+  <slot>Childhood</slot>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
 	<bodyTypeGlobal>Thin</bodyTypeGlobal>
@@ -23,30 +23,30 @@
         <amount>4</amount>
       </li>
 	  <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>4</amount>
       </li>
     </skillGains>
     <forcedTraits>
         <li>
-            <defname>Kind</defname>
+            <defName>Kind</defName>
             <chance>50</chance>
         </li>
         <li>
-            <defname>Brawler</defname>
+            <defName>Brawler</defName>
         </li>
     </forcedTraits>
 </AlienRace.BackstoryDef>
 
 <AlienRace.BackstoryDef>
-    <defName>ZabrakTribal</defName>
-    <title>Tribesman</title>
+  <defName>ZabrakTribal</defName>
+  <title>Tribesman</title>
 	<titleShort>Tribesman</titleShort>
-    <baseDescription>Most of the Zabrak people are simple tribesmen and women, like NAME. A hardy people, due to the harsh environment.</baseDescription>
-    <slot>Childhood</slot>
-    <spawnCategories>
-      <li>ZabrakBackstory</li>
-    </spawnCategories>
+  <baseDescription>Most of the Zabrak people are simple tribesmen and women, like NAME. A hardy people, due to the harsh environment.</baseDescription>
+  <slot>Childhood</slot>
+  <spawnCategories>
+    <li>ZabrakBackstory</li>
+  </spawnCategories>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
 	<bodyTypeGlobal>Thin</bodyTypeGlobal>
@@ -86,7 +86,7 @@
     </skillGains>
     <forcedTraits>
         <li>
-            <defname>Kind</defname>
+            <defName>Kind</defName>
             <chance>50</chance>
         </li>
     </forcedTraits>
@@ -131,7 +131,7 @@
     </spawnCategories>
     <skillGains>
           <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>-6</amount>
       </li>
       <li>
@@ -172,7 +172,7 @@
         <amount>2</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>2</amount>
       </li>
     </skillGains>
@@ -244,7 +244,7 @@
     </workDisables>
     <skillGains>
       <li>
-        <defName>Research</defName>
+        <defName>Intellectual</defName>
         <amount>6</amount>
       </li>
       <li>

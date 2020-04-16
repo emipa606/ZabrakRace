@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
   <ThingDef ParentName="BaseFilth">
     <defName>FilthBloodZabrak</defName>
@@ -19,5 +19,4 @@
     </filth>
   </ThingDef>  
    
-  
-</ThingDefs>
+</Defs>

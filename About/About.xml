@@ -3,6 +3,12 @@
 	<name>Zabrak Race</name>
 	<author>Xen</author>
 	<url></url>
-	<targetVersion>0.16.1393</targetVersion>
+	<supportedVersions>
+    	<li>1.0</li>
+    	<li>1.1</li>
+  	</supportedVersions>
+  	<modDependencies>
+	</modDependencies>
+	<packageId>xen.zabrak</packageId>
 	<description>Zabrak race, using the Humanoid Alien framework, and a couple hairs borrowed and altered with permission by Spoonshortage.</description>
 </ModMetaData>

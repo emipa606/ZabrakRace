@@ -1,15 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<PawnKindDefs>
+<Defs>
 
   <!-- ============================ Zabrak Base ========================== -->
 
   <PawnKindDef Name="ZabrakBase" Abstract="True">
     <defaultFactionType>ZabrakEmpire</defaultFactionType>
     <race>Alien_Zabrak</race>
-	<backstoryCategory>ZabrakBackstory</backstoryCategory>
+    <backstoryCategories>
+			<li>ZabrakBackstory</li>
+      <li>Civil</li>
+  	</backstoryCategories>
     <chemicalAddictionChance>0.035</chemicalAddictionChance>
     <baseRecruitDifficulty>0.60</baseRecruitDifficulty>
-    <apparelAllowHeadwearChance>0</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <apparelTags>
       <li>Tribal</li>
     </apparelTags>
@@ -19,7 +22,7 @@
 
   <PawnKindDef Name="ZabrakCivBase" ParentName="ZabrakBase" Abstract="True">
     <combatPower>25</combatPower>
-	<race>Alien_Zabrak</race>
+    <race>Alien_Zabrak</race>
     <itemQuality>Normal</itemQuality>
     <isFighter>false</isFighter>
     <gearHealthRange>
@@ -31,8 +34,8 @@
       <max>900</max>
     </apparelMoney>
     <weaponMoney>
-      <min>0</min>
-      <max>250</max>
+      <min>100</min>
+      <max>550</max>
     </weaponMoney>
     <weaponTags>
       <li>Gun</li>
@@ -75,20 +78,32 @@
   <PawnKindDef ParentName="ZabrakCivBase">
     <defName>ZabrakColonist</defName>
     <label>colonist</label>
+    <weaponMoney>
+      <min>200</min>
+      <max>800</max>
+    </weaponMoney>
   </PawnKindDef>
 
   <PawnKindDef ParentName="ZabrakCivBase">
     <defName>ZabrakTribalLeader</defName>
     <label>Tribal leader</label>
+    <weaponMoney>
+      <min>200</min>
+      <max>800</max>
+    </weaponMoney>
     <labelPlural>tribal leaders</labelPlural>
     <factionLeader>true</factionLeader>
-	<minGenerationAge>39</minGenerationAge>
-	<maxGenerationAge>900</maxGenerationAge>
+    <minGenerationAge>39</minGenerationAge>
+    <maxGenerationAge>900</maxGenerationAge>
   </PawnKindDef>
   
   <PawnKindDef ParentName="ZabrakCivBase">
     <defName>ZabrakTrader</defName>
     <label>colony trader</label>
+    <weaponMoney>
+      <min>200</min>
+      <max>800</max>
+    </weaponMoney>
     <trader>true</trader>
   </PawnKindDef>
   
@@ -180,7 +195,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineIndustrial</thingDef>
           <countRange>
             <min>1</min>
             <max>1</max>
@@ -246,7 +261,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineIndustrial</thingDef>
           <countRange>
             <min>1</min>
             <max>1</max>
@@ -304,7 +319,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineIndustrial</thingDef>
           <countRange>
             <min>1</min>
             <max>2</max>
@@ -364,7 +379,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineIndustrial</thingDef>
           <countRange>
             <min>1</min>
             <max>2</max>
@@ -374,5 +389,4 @@
     </inventoryOptions>
   </PawnKindDef>
   
-
-</PawnKindDefs>
+</Defs>

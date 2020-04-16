@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<PawnKindDefs>
+<Defs>
 
   <PawnKindDef Abstract="True" Name="BaseZabrakPawnKind">
     <race>Alien_Zabrak</race>
@@ -14,7 +14,10 @@
     <defName>Zabrak</defName>
     <label>colonist</label>
     <defaultFactionType>PlayerColony</defaultFactionType>
-    <backstoryCategory>ZabrakBackstory</backstoryCategory>
+    <backstoryCategories>
+			<li>ZabrakBackstory</li>
+      <li>Civil</li>
+  	</backstoryCategories>
     <apparelTags>
       <li>Spacer</li>
     </apparelTags>
@@ -25,4 +28,4 @@
     <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
   </PawnKindDef>
 
-</PawnKindDefs>
+</Defs>

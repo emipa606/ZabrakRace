@@ -1,15 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<FactionDefs>
+<Defs>
 
   <FactionDef>
 		<defName>ZabrakEmpire</defName>
 		<label>Zabrak empire</label>
     <description>A colony of the mysterious Zabrak race.</description>
     <pawnsPlural>Zabrak</pawnsPlural>
-    <factionBaseSelectionWeight>.75</factionBaseSelectionWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
     <canMakeRandomly>true</canMakeRandomly>
-    <raidCommonality>100</raidCommonality>
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>Darth</leaderTitle>
@@ -17,13 +16,14 @@
       <min>10</min>
       <max>40</max>
     </startingGoodwill>
-	<factionNameMaker>NamerFactionTribal</factionNameMaker>
-	<factionBaseNameMaker>NamerFactionBaseTribal</factionBaseNameMaker>
-	<techLevel>Medieval</techLevel>
-	<backstoryCategory>ZabrakBackstory</backstoryCategory>
-			<hairTags>
+    <factionNameMaker>NamerFactionTribal</factionNameMaker>
+    <techLevel>Medieval</techLevel>
+    <backstoryCategories>
+			<li>ZabrakBackstory</li>
+  	</backstoryCategories>
+    <hairTags>
 			<li>ZabrakHair</li>
-			</hairTags>
+    </hairTags>
     <naturalColonyGoodwill>
       <min>-60</min>
       <max>0</max>
@@ -31,21 +31,30 @@
     <visitorTraderKinds>
       <li>Visitor_Zabrak_Standard</li>
     </visitorTraderKinds>
-   <caravanTraderKinds>
+    <caravanTraderKinds>
       <li>Caravan_Outlander_BulkGoods</li>
       <li>Caravan_Outlander_CombatSupplier</li>
       <li>Caravan_Outlander_Exotic</li>
     </caravanTraderKinds>
-    <factionBaseTraderKinds>
-      <li>FactionBase_Outlander_Standard</li>
-    </factionBaseTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
     <allowedArrivalTemperatureRange>
       <min>-50</min>
       <max>45</max>
     </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
     <pawnGroupMakers>
       <li>
-        <kindDef>Normal</kindDef>
+        <kindDef>Combat</kindDef>
         <options>
           <ZabrakColonist>50</ZabrakColonist>
           <ZabrakSecurityGuard>90</ZabrakSecurityGuard>
@@ -56,7 +65,17 @@
           <ZabrakCommandoElite>170</ZabrakCommandoElite>
         </options>
       </li>
-	  <li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <ZabrakColonist>50</ZabrakColonist>
+          <ZabrakSecurityGuard>90</ZabrakSecurityGuard>
+          <ZabrakTribalLeader>250</ZabrakTribalLeader>
+          <ZabrakRecruit>100</ZabrakRecruit>
+          <ZabrakHunter>130</ZabrakHunter>
+        </options>
+      </li>
+      <li>
       <kindDef>Trader</kindDef>
         <traders>
           <ZabrakTrader>1</ZabrakTrader>
@@ -72,8 +91,8 @@
           <ZabrakCommando>130</ZabrakCommando>
         </guards>
       </li>
-	  <li>
-        <kindDef>FactionBase</kindDef>
+      <li>
+        <kindDef>Settlement</kindDef>
         <options>
           <ZabrakColonist>50</ZabrakColonist>
           <ZabrakSecurityGuard>90</ZabrakSecurityGuard>
@@ -85,8 +104,6 @@
         </options>
       </li>
     </pawnGroupMakers>
-    <homeIconPath>World/ZabrakBaseIcon</homeIconPath>
-	<expandingIconTexture>World/ZabrakBaseIcon</expandingIconTexture>
   </FactionDef>
 
-</FactionDefs>
+</Defs>
