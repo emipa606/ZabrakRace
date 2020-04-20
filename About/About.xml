@@ -8,6 +8,12 @@
     	<li>1.1</li>
   	</supportedVersions>
   	<modDependencies>
+	  	<li>
+			<packageId>erdelf.HumanoidAlienRaces</packageId>
+			<displayName>Humanoid Alien Races 2.0</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl>
+			<downloadUrl>https://github.com/RimWorld-CCL-Reborn/AlienRaces/releases/latest</downloadUrl>
+		</li>
 	</modDependencies>
 	<packageId>xen.zabrak</packageId>
 	<description>Zabrak race, using the Humanoid Alien framework, and a couple hairs borrowed and altered with permission by Spoonshortage.</description>
