@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Change tribal label ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/FactionDef[defName="Empire"]/permanentEnemyToEveryoneExcept</xpath>
+    <value>
+      <li>ZabrakEmpire</li>
+      <li>ZabrakPlayerColony</li>
+      <li>ZabrakPlayerColonyTribal</li>
+    </value>
+  </Operation>
+</Patch>

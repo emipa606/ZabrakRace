@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef Abstract="True" Name="ZabrakFactionBase">
+    <colorSpectrum>
+      <li>(0, 0.737, 0.847)</li>
+    </colorSpectrum>
+  </FactionDef>
+  <FactionDef Parent="ZabrakFactionBase">
+    <defName>ZabrakPlayerColony</defName>
+    <label>Zabrak Colony</label>
+    <description>Your own community.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Zabrak</basicMemberKind>
+    <pawnsPlural>colonists</pawnsPlural>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <techLevel>Ultra</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>ZabrakBackstory</li>
+          <li>Civil</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <settlementTexturePath>World/ZabrakBaseIcon</settlementTexturePath>
+    <factionIconPath>World/ZabrakBaseIcon</factionIconPath>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <hairTags>
+      <li>ZabrakHair</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+  <FactionDef Parent="ZabrakFactionBase">
+    <defName>ZabrakPlayerColonyTribal</defName>
+    <label>Zabrak Tribal</label>
+    <description>Zabrak Tribal Start.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Zabrak</basicMemberKind>
+    <pawnsPlural>colonists</pawnsPlural>
+    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerFactionTribal</factionNameMaker>
+    <techLevel>Ultra</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>ZabrakBackstory</li>
+          <li>Civil</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <settlementTexturePath>World/ZabrakBaseIcon</settlementTexturePath>
+    <factionIconPath>World/ZabrakBaseIcon</factionIconPath>
+    <startingResearchTags>
+      <li>TribalStart</li>
+    </startingResearchTags>
+    <hairTags>
+      <li>ZabrakHair</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <colorSpectrum>
+      <li>(0, 0.437, 0.847)</li>
+    </colorSpectrum>
+  </FactionDef>
+</Defs>
