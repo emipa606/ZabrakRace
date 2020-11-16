@@ -20,28 +20,22 @@
   <loadAfter>
     <li>erdelf.HumanoidAlienRaces</li>
   </loadAfter>
-  <description>Update of Xens mod
-https://steamcommunity.com/sharedfiles/filedetails/?id=2018388859
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of Xens mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=2018390796
 
-[img]https://i.imgur.com/GYswkZ7.png[/img]
-
-Support-chat:
-https://invite.gg/mlie
-
-Non-steam version:
-https://github.com/emipa606/ZabrakRace
-	
 - Added Royalty faction-patch
+
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/ZabrakRace][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+	[/tr]
+[/table]
 	
---- Original Description ---
-Zabrak race, using the Humanoid Alien framework, and a couple hairs borrowed and altered with permission by Spoonshortage. (Thanks!)
+[img]https://i.imgur.com/NOW7jU1.png[/img]
 
-Adds Zabrak (Darth Maul's race from Star Wars) factions and pawns - both as player faction and random colonies
-Playable as a tribal-level start faction (pick them instead of "new arrivals" in scenario editor)
-
-
--------REQUIRES ALIEN FRAMEWORK BY ERDELF!
-
--------Make sure the FRAMEWORK is loaded BEFORE any races in mod order!!
-</description>
+Zabrak race, using the Humanoid Alien framework, and a couple hairs borrowed and altered with permission by Spoonshortage.</description>
 </ModMetaData>

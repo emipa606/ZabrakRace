@@ -46,7 +46,7 @@
                 <li>ZabrakCommando</li>
                 <li>ZabrakColonist</li>
                 <li>ZabrakCommandoElite</li>
-                <li>ZabrakPackLeader</li>
+                <li>ZabrakTribalLeader</li>
                 <li>ZabrakRecruit</li>
               </kindDefs>
               <chance>50.0</chance>
