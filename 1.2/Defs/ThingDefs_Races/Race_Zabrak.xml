@@ -59,36 +59,10 @@
       </alienwandererkinds>
     </pawnKindSettings>
   </AlienRace.RaceSettings>
-  <ThingDef Name="BaseZabPawn" Abstract="True">
-    <thingClass>Pawn</thingClass>
-    <category>Pawn</category>
-    <selectable>true</selectable>
-    <tickerType>Normal</tickerType>
-    <altitudeLayer>Pawn</altitudeLayer>
-    <useHitPoints>false</useHitPoints>
-    <hasTooltip>true</hasTooltip>
-    <soundImpactDefault>BulletImpact_Flesh</soundImpactDefault>
-    <inspectorTabs>
-      <li>ITab_Pawn_Health</li>
-      <li>ITab_Pawn_Needs</li>
-      <li>ITab_Pawn_Character</li>
-      <li>ITab_Pawn_Training</li>
-      <li>ITab_Pawn_Gear</li>
-      <li>ITab_Pawn_Guest</li>
-      <li>ITab_Pawn_Prisoner</li>
-      <li>ITab_Pawn_Social</li>
-      <li>ITab_Pawn_Log</li>
-      <li>ITab_Pawn_FormingCaravan</li>
-    </inspectorTabs>
+  <ThingDef Name="BaseZabPawn" Abstract="True" ParentName="BasePawn">
     <statBases>
       <Mass>70</Mass>
     </statBases>
-    <comps>
-      <li>
-        <compClass>CompAttachBase</compClass>
-      </li>
-    </comps>
-    <drawGUIOverlay>true</drawGUIOverlay>
   </ThingDef>
   <AlienRace.ThingDef_AlienRace ParentName="BaseZabPawn">
     <defName>Alien_Zabrak</defName>
@@ -112,8 +86,19 @@
         <alienPartGenerator>
           <aliencrowntypes>
             <li>Average_Normal</li>
+            <li>Average_Pointy</li>
+            <li>Average_Wide</li>
+            <li>Narrow_Normal</li>
+            <li>Narrow_Pointy</li>
+            <li>Narrow_Wide</li>
           </aliencrowntypes>
-          <alienbodytypes />
+          <alienbodytypes>
+            <li>Fat</li>
+            <li>Female</li>
+            <li>Hulk</li>
+            <li>Male</li>
+            <li>Thin</li>
+          </alienbodytypes>
           <colorChannels>
             <li>
               <name>skin</name>
@@ -183,13 +168,79 @@
               </first>
             </li>
           </colorChannels>
+          <bodyAddons>
+            <li>
+              <path>Things/New/Horns/Horn</path>
+              <bodyPart>Head</bodyPart>
+              <inFrontOfBody>true</inFrontOfBody>
+              <layerInvert>false</layerInvert>
+              <drawnInBed>true</drawnInBed>
+              <drawSize>1.0</drawSize>
+              <shaderType>Transparent</shaderType>
+              <colorChannel>hair</colorChannel>
+              <offsets>
+                <south>
+                  <bodyTypes>
+                    <Male>(-0.840, 0.783)</Male>
+                    <Female>(-0.840, 0.783)</Female>
+                    <Fat>(-0.840, 0.783)</Fat>
+                    <Hulk>(-0.840, 0.783)</Hulk>
+                    <Thin>(-0.840, 0.783)</Thin>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>(0.42,-0.22)</Average_Normal>
+                    <Average_Pointy>(0.42,-0.22)</Average_Pointy>
+                    <Average_Wide>(0.42,-0.22)</Average_Wide>
+                    <Narrow_Normal>(0.42,-0.22)</Narrow_Normal>
+                    <Narrow_Pointy>(0.42,-0.22)</Narrow_Pointy>
+                    <Narrow_Wide>(0.42,-0.22)</Narrow_Wide>
+                  </crownTypes>
+                </south>
+                <north>
+                  <bodyTypes>
+                    <Male>(-0.420, 1.160)</Male>
+                    <Female>(-0.420, 1.160)</Female>
+                    <Fat>(-0.420, 1.160)</Fat>
+                    <Hulk>(-0.420, 1.160)</Hulk>
+                    <Thin>(-0.420, 1.160)</Thin>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>(0.42,-0.22)</Average_Normal>
+                    <Average_Pointy>(0.42,-0.26)</Average_Pointy>
+                    <Average_Wide>(0.42,-0.26)</Average_Wide>
+                    <Narrow_Normal>(0.42,-0.22)</Narrow_Normal>
+                    <Narrow_Pointy>(0.42,-0.26)</Narrow_Pointy>
+                    <Narrow_Wide>(0.42,-0.26)</Narrow_Wide>
+                  </crownTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <Male>(-0.850, 0.770)</Male>
+                    <Female>(-0.850, 0.770)</Female>
+                    <Fat>(-0.850, 0.770)</Fat>
+                    <Hulk>(-0.850, 0.770)</Hulk>
+                    <Thin>(-0.850, 0.770)</Thin>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Average_Normal>(0.42, -0.22)</Average_Normal>
+                    <Average_Pointy>(0.39,-0.22)</Average_Pointy>
+                    <Average_Wide>(0.32,-0.22)</Average_Wide>
+                    <Narrow_Normal>(0.42,-0.22)</Narrow_Normal>
+                    <Narrow_Pointy>(0.39,-0.22)</Narrow_Pointy>
+                    <Narrow_Wide>(0.32,-0.22)</Narrow_Wide>
+                  </crownTypes>
+                </east>
+              </offsets>
+            </li>
+          </bodyAddons>
         </alienPartGenerator>
         <chemicalSettings />
         <humanRecipeImport>true</humanRecipeImport>
       </generalSettings>
       <graphicPaths>
         <li>
-          <head>Things/Zabrak/Heads/</head>
+          <head>Things/New/Heads/</head>
+          <body>Things/New/Bodies/</body>
         </li>
         <li>
           <lifeStageDefs>

@@ -4,7 +4,7 @@
     <race>Alien_Zabrak</race>
     <combatPower>40</combatPower>
     <baseRecruitDifficulty>0.50</baseRecruitDifficulty>
-    <isFighter>false</isFighter>
+    <isFighter>true</isFighter>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
     <forceNormalGearQuality>true</forceNormalGearQuality>
   </PawnKindDef>
@@ -16,17 +16,13 @@
       <li>
         <categories>
           <li>ZabrakBackstory</li>
-          <li>Civil</li>
+          <li>Tribal</li>
         </categories>
       </li>
     </backstoryFilters>
     <apparelTags>
-      <li>Spacer</li>
-      <li>IndustrialBasic</li>
-      <li>IndustrialAdvanced</li>
-      <li>IndustrialMilitaryBasic</li>
-      <li>IndustrialMilitaryAdvanced</li>
-      <li>SpacerMilitary</li>
+      <li>Tribal</li>
+      <li>Neolithic</li>
     </apparelTags>
     <apparelMoney>
       <min>1000</min>

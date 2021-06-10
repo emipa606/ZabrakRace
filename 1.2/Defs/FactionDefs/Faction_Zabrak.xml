@@ -10,7 +10,7 @@
     <canMakeRandomly>true</canMakeRandomly>
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
-    <leaderTitle>Darth</leaderTitle>
+    <leaderTitle>Brother</leaderTitle>
     <startingGoodwill>
       <min>10</min>
       <max>40</max>
@@ -111,7 +111,7 @@
         </options>
       </li>
     </pawnGroupMakers>
-    <settlementTexturePath>World/ZabrakBaseIconAlt</settlementTexturePath>
-    <factionIconPath>World/ZabrakBaseIconAlt</factionIconPath>
+    <settlementTexturePath>Things/New/Logo/ZabrakBaseIconAlt</settlementTexturePath>
+    <factionIconPath>Things/New/Logo/ZabrakBaseIconAlt</factionIconPath>
   </FactionDef>
 </Defs>

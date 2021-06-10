@@ -8,7 +8,7 @@
       <li>
         <categories>
           <li>ZabrakBackstory</li>
-          <li>Civil</li>
+          <li>Tribal</li>
         </categories>
       </li>
     </backstoryFilters>
@@ -18,8 +18,8 @@
     <apparelTags>
       <li>Tribal</li>
       <li>Neolithic</li>
-      <li>IndustrialBasic</li>
-      <li>IndustrialMilitaryBasic</li>
+      <!-- <li>IndustrialBasic</li> -->
+      <!-- <li>IndustrialMilitaryBasic</li> -->
     </apparelTags>
   </PawnKindDef>
   <!-- ============================ Zabrak Civilian Base ========================== -->
@@ -41,8 +41,8 @@
       <max>550</max>
     </weaponMoney>
     <weaponTags>
-      <li>Gun</li>
-      <li>NonNeolithicOnlyMelee</li>
+      <li>Neolithic</li>
+      <li>Medieval</li>
     </weaponTags>
     <techHediffsMoney>
       <min>200</min>
@@ -116,7 +116,8 @@
       <max>800</max>
     </weaponMoney>
     <weaponTags>
-      <li>Gun</li>
+      <li>Neolithic</li>
+      <li>Medieval</li>
     </weaponTags>
     <techHediffsMoney>
       <min>200</min>
@@ -150,10 +151,8 @@
       <max>2.3</max>
     </gearHealthRange>
     <apparelTags>
-      <li>Outlander</li>
-      <li>Military</li>
-      <li>IndustrialBasic</li>
-      <li>IndustrialMilitaryBasic</li>
+      <li>Tribal</li>
+      <li>Neolithic</li>
     </apparelTags>
     <apparelMoney>
       <min>1500</min>
@@ -164,7 +163,8 @@
       <max>1000</max>
     </weaponMoney>
     <weaponTags>
-      <li>Gun</li>
+      <li>Neolithic</li>
+      <li>Medieval</li>
     </weaponTags>
     <techHediffsMoney>
       <min>1000</min>
@@ -181,7 +181,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>MedicineIndustrial</thingDef>
+          <thingDef>MedicineHerbal</thingDef>
           <countRange>
             <min>1</min>
             <max>1</max>
@@ -206,10 +206,8 @@
       <max>2.3</max>
     </gearHealthRange>
     <apparelTags>
-      <li>Outlander</li>
-      <li>Military</li>
-      <li>IndustrialBasic</li>
-      <li>IndustrialMilitaryBasic</li>
+      <li>Tribal</li>
+      <li>Neolithic</li>
     </apparelTags>
     <apparelMoney>
       <min>1500</min>
@@ -220,7 +218,8 @@
       <max>1800</max>
     </weaponMoney>
     <weaponTags>
-      <li>SniperRifle</li>
+      <li>Neolithic</li>
+      <li>Medieval</li>
     </weaponTags>
     <techHediffsMoney>
       <min>1000</min>
@@ -245,7 +244,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>MedicineIndustrial</thingDef>
+          <thingDef>MedicineHerbal</thingDef>
           <countRange>
             <min>1</min>
             <max>1</max>
@@ -264,12 +263,8 @@
       <max>2.3</max>
     </gearHealthRange>
     <apparelTags>
-      <li>Outlander</li>
-      <li>Military</li>
-      <li>IndustrialBasic</li>
-      <li>IndustrialAdvanced</li>
-      <li>IndustrialMilitaryBasic</li>
-      <li>IndustrialMilitaryAdvanced</li>
+      <li>Tribal</li>
+      <li>Neolithic</li>
     </apparelTags>
     <apparelMoney>
       <min>1000</min>
@@ -280,7 +275,8 @@
       <max>2000</max>
     </weaponMoney>
     <weaponTags>
-      <li>Gun</li>
+      <li>Neolithic</li>
+      <li>Medieval</li>
     </weaponTags>
     <techHediffsMoney>
       <min>2000</min>
@@ -291,7 +287,7 @@
       <max>2</max>
     </combatEnhancingDrugsCount>
     <techHediffsTags>
-      <li>Advanced</li>
+      <li>Simple</li>
     </techHediffsTags>
     <techHediffsChance>0.88</techHediffsChance>
     <inventoryOptions>
@@ -305,7 +301,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>MedicineIndustrial</thingDef>
+          <thingDef>MedicineHerbal</thingDef>
           <countRange>
             <min>1</min>
             <max>2</max>
@@ -324,13 +320,8 @@
       <max>3.5</max>
     </gearHealthRange>
     <apparelTags>
-      <li>Military</li>
-      <li>Spacer</li>
-      <li>IndustrialBasic</li>
-      <li>IndustrialAdvanced</li>
-      <li>IndustrialMilitaryBasic</li>
-      <li>IndustrialMilitaryAdvanced</li>
-      <li>SpacerMilitary</li>
+      <li>Tribal</li>
+      <li>Neolithic</li>
     </apparelTags>
     <apparelMoney>
       <min>2500</min>
@@ -341,9 +332,8 @@
       <max>2000</max>
     </weaponMoney>
     <weaponTags>
-      <li>Gun</li>
-      <li>EliteGun</li>
-      <li>AdvancedGun</li>
+      <li>Neolithic</li>
+      <li>Medieval</li>
     </weaponTags>
     <techHediffsMoney>
       <min>2000</min>
@@ -355,7 +345,7 @@
     </combatEnhancingDrugsCount>
     <combatEnhancingDrugsChance>0.1</combatEnhancingDrugsChance>
     <techHediffsTags>
-      <li>Advanced</li>
+      <li>Simple</li>
     </techHediffsTags>
     <techHediffsChance>0.80</techHediffsChance>
     <inventoryOptions>
@@ -369,7 +359,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>MedicineIndustrial</thingDef>
+          <thingDef>MedicineHerbal</thingDef>
           <countRange>
             <min>1</min>
             <max>2</max>

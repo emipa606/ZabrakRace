@@ -6,7 +6,7 @@
     <hairGender>Any</hairGender>
     <texPath>Hairs/ZabHorns</texPath>
     <hairTags>
-      <li>ZabrakHair</li>
+      <li>NotUsed</li>
     </hairTags>
   </HairDef>
   <HairDef>
@@ -15,7 +15,7 @@
     <hairGender>Any</hairGender>
     <texPath>Hairs/ZabGronn</texPath>
     <hairTags>
-      <li>ZabrakHair</li>
+      <li>NotUsed</li>
     </hairTags>
   </HairDef>
   <HairDef>
@@ -33,7 +33,7 @@
     <hairGender>Any</hairGender>
     <texPath>Hairs/ZabSokka</texPath>
     <hairTags>
-      <li>ZabrakHair</li>
+      <li>NotUsed</li>
     </hairTags>
   </HairDef>
   <HairDef>
@@ -42,7 +42,7 @@
     <hairGender>Any</hairGender>
     <texPath>Hairs/ZabTrogo</texPath>
     <hairTags>
-      <li>ZabrakHair</li>
+      <li>NotUsed</li>
     </hairTags>
   </HairDef>
   <HairDef>
@@ -60,7 +60,7 @@
     <texPath>Hairs/ZTails</texPath>
     <defName>LTZab</defName>
     <hairTags>
-      <li>ZabrakHair</li>
+      <li>NotUsed</li>
     </hairTags>
   </HairDef>
   <HairDef>
@@ -69,7 +69,7 @@
     <texPath>Hairs/ZMess</texPath>
     <defName>SEZab</defName>
     <hairTags>
-      <li>ZabrakHair</li>
+      <li>NotUsed</li>
     </hairTags>
   </HairDef>
   <HairDef>
@@ -104,6 +104,60 @@
     <hairGender>Female</hairGender>
     <texPath>Hairs/VoKiritan</texPath>
     <defName>VoKiritanZab</defName>
+    <hairTags>
+      <li>ZabrakHair</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <label>NoHairOne</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/HairBlank</texPath>
+    <defName>NoHairOne</defName>
+    <hairTags>
+      <li>ZabrakHair</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <label>NoHairTwo</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/HairBlank</texPath>
+    <defName>NoHairTwo</defName>
+    <hairTags>
+      <li>ZabrakHair</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <label>NoHairThree</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/HairBlank</texPath>
+    <defName>NoHairThree</defName>
+    <hairTags>
+      <li>ZabrakHair</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <label>NoHairFour</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/HairBlank</texPath>
+    <defName>NoHairFour</defName>
+    <hairTags>
+      <li>ZabrakHair</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <label>NoHairFive</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/HairBlank</texPath>
+    <defName>NoHairFive</defName>
+    <hairTags>
+      <li>ZabrakHair</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <label>NoHairSix</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/HairBlank</texPath>
+    <defName>NoHairSix</defName>
     <hairTags>
       <li>ZabrakHair</li>
     </hairTags>
