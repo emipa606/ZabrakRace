@@ -6,6 +6,7 @@ Update of Xens mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2018390796
 
 - Added Royalty faction-patch
+- New graphics by Delta
 
 ![Image](https://i.imgur.com/7Gzt3Rg.png)
 
@@ -35,6 +36,7 @@ Zabrak race, using the Humanoid Alien framework, and a couple hairs borrowed and
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 

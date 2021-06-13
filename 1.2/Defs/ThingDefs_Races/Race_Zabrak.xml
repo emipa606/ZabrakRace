@@ -146,6 +146,10 @@
                   </li>
                   <li>
                     <weight>5</weight>
+                    <only>RGBA(1,0.88,0.74,1)</only>
+                  </li>
+                  <li>
+                    <weight>5</weight>
                     <only>RGBA(0.83,0.37,0.28,1)</only>
                   </li>
                   <li>
@@ -157,12 +161,47 @@
                     <only>RGBA(0.7,0.7,0.2,1)</only>
                   </li>
                   <li>
+                    <weight>5</weight>
+                    <only>RGBA(0.57,0.16,0.57,1)</only>
+                  </li>
+                  <li>
                     <weight>2</weight>
                     <only>RGBA(0.3,0.63,0.45,1)</only>
                   </li>
                   <li>
                     <weight>2</weight>
                     <only>RGBA(0.55,0.73,0.955,1)</only>
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.25,0.25,0.25,1)</only>
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.89,0.85,0.79,1)</only>
+                  </li>
+                </options>
+              </first>
+            </li>
+            <li>
+              <name>horns</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.25,0.25,0.25,1)</only>
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.89,0.85,0.79,1)</only>
+                  </li>
+                  <li>
+                    <weight>0.05</weight>
+                    <only>RGBA(0.2,0,0,1)</only>
+                  </li>
+                  <li>
+                    <weight>0.05</weight>
+                    <only>RGBA(0,0.07,0,1)</only>
                   </li>
                 </options>
               </first>
@@ -177,7 +216,7 @@
               <drawnInBed>true</drawnInBed>
               <drawSize>1.0</drawSize>
               <shaderType>Transparent</shaderType>
-              <colorChannel>hair</colorChannel>
+              <colorChannel>horns</colorChannel>
               <offsets>
                 <south>
                   <bodyTypes>

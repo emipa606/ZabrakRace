@@ -1,5 +1,8 @@
 # Changelog for ZabrakRace
 
+1.0.4.0 - Color and alignment-fixes by 5katz
+
+
 1.0.3.0 - Race-def now inherits BasePawn to make it more compatible. Some updated graphics
 
 
