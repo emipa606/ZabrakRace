@@ -7,6 +7,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2018390796
 
 - Added Royalty faction-patch
 - New graphics by Delta
+- Graphic and alignment-fixes by 5katz
 
 ![Image](https://i.imgur.com/7Gzt3Rg.png)
 

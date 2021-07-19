@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BodyPartDef>
+    <defName>PJ_ZabHeart</defName>
+    <label>heart</label>
+    <hitPoints>20</hitPoints>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>BloodPumpingSource</li>
+    </tags>
+    <bleedRate>4</bleedRate>
+    <spawnThingOnRemoved>Heart</spawnThingOnRemoved>
+    <canSuggestAmputation>false</canSuggestAmputation>
+  </BodyPartDef>
+</Defs>
