@@ -7,6 +7,7 @@
     <pawnsPlural>Zabrak</pawnsPlural>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <settlementGenerationWeight>1</settlementGenerationWeight>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
     <canMakeRandomly>true</canMakeRandomly>
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
