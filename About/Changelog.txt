@@ -1,5 +1,8 @@
 # Changelog for ZabrakRace
 
+1.0.8.0 - Should no longer get stuck at the styling table
+
+
 1.0.7.0 - Added confiurable at game-start option
 
 
