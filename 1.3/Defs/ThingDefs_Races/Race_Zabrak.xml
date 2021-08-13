@@ -292,9 +292,9 @@
         <li>
           <key>HairDef</key>
           <value>
-            <styleTags>
+            <styleTagsOverride>
               <li>ZabrakHair</li>
-            </styleTags>
+            </styleTagsOverride>
           </value>
         </li>
         <li>

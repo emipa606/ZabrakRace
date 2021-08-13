@@ -1,5 +1,8 @@
 # Changelog for ZabrakRace
 
+1.0.9.0 - Forgot the new override command for styletags
+
+
 1.0.8.0 - Should no longer get stuck at the styling table
 
 
