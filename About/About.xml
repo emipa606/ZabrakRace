@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Zabrak Race (Continued)</name>
   <packageId>Mlie.ZabrakRace</packageId>
@@ -21,7 +21,7 @@
   <loadAfter>
     <li>erdelf.HumanoidAlienRaces</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Xens mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2018390796
 
@@ -29,21 +29,27 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2018390796
 - New graphics by Delta
 - Graphic and alignment-fixes by 5katz
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+To change the age that is considered adulthood to be able to use things like the biosculptor, please use the [url= https://steamcommunity.com/sharedfiles/filedetails/?id=2600514932]Select Adulthood[/url] mod
+
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
 	[tr]
 		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
 		[td][url=https://github.com/emipa606/ZabrakRace][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
-	[/tr]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/6KqTKks.png[/img][/td]
+    [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 
 Zabrak race, using the Humanoid Alien framework, and a couple hairs borrowed and altered with permission by Spoonshortage.
 
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -52,6 +58,5 @@ Zabrak race, using the Humanoid Alien framework, and a couple hairs borrowed and
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [/list]
-
 </description>
 </ModMetaData>
