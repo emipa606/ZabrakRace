@@ -1,6 +1,6 @@
 # ZabrakRace
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Xens mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2018390796
@@ -9,25 +9,18 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2018390796
 - New graphics by Delta
 - Graphic and alignment-fixes by 5katz
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+To change the age that is considered adulthood to be able to use things like the biosculptor, please use the  https://steamcommunity.com/sharedfiles/filedetails/?id=2600514932]Select Adulthood mod
 
+![Image](https://i.imgur.com/pufA0kM.png)
 
-[table]
-	[tr]
-		[td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-		[td]https://github.com/emipa606/ZabrakRace]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-	[/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 
 Zabrak race, using the Humanoid Alien framework, and a couple hairs borrowed and altered with permission by Spoonshortage.
 
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 

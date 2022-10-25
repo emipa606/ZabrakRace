@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <PawnKindDef Abstract="True" Name="BaseZabrakPawnKind">
+    <race>Alien_Zabrak</race>
+    <combatPower>40</combatPower>
+    <initialWillRange>1~3</initialWillRange>
+    <initialResistanceRange>15~24</initialResistanceRange>
+    <isFighter>true</isFighter>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BaseZabrakPawnKind">
+    <defName>Zabrak</defName>
+    <label>colonist</label>
+    <defaultFactionType>ZabrakPlayerColony</defaultFactionType>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>ZabrakBackstory</li>
+          <li>Tribal</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <apparelTags>
+      <li>Tribal</li>
+      <li>Neolithic</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>1000</min>
+      <max>2400</max>
+    </apparelMoney>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+  </PawnKindDef>
+</Defs>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>NamerPersonZabrakM</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[ZabrakfirstM] [Zabraklast]</li>
+        <li>name-&gt;[badasszab] [ZabrakfirstM]</li>
+        <li>name-&gt;[ZabrakfirstM] '[badasszab]' [Zabraklast]</li>
+        <li>name-&gt;[ZabrakfirstM] [badasszab]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>ZabrakfirstM</keyword>
+          <path>Zabrak_Names/ZabrakM</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Zabraklast</keyword>
+          <path>Zabrak_Names/Zabraklast</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badasszab</keyword>
+          <path>Zabrak_Names/Concepts_Zabrak</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>NamerPersonZabrakF</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[ZabrakfirstF] [Zabraklast]</li>
+        <li>name-&gt;[badasszab] [ZabrakfirstF]</li>
+        <li>name-&gt;[ZabrakfirstF] '[badasszab]' [Zabraklast]</li>
+        <li>name-&gt;[ZabrakfirstF] [badasszab]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>ZabrakfirstF</keyword>
+          <path>Zabrak_Names/ZabrakF</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Zabraklast</keyword>
+          <path>Zabrak_Names/Zabraklast</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badasszab</keyword>
+          <path>Zabrak_Names/Concepts_Zabrak</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+</Defs>
