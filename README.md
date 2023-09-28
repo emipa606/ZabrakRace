@@ -32,4 +32,6 @@ Zabrak race, using the Humanoid Alien framework, and a couple hairs borrowed and
 -  If you have the solution for a problem, please post it to the GitHub repository.
 
 
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2263389593]Last updated 2023-08-18
+
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2263389593]![Image](https://img.shields.io/github/v/release/emipa606/ZabrakRace?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
+

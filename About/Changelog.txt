@@ -1,5 +1,8 @@
 # Changelog for ZabrakRace
 
+1.4.4 - Somewhat better alignment of the horns
+
+
 1.4.3 - Added some body-tags to support special apparel like blindfolds
 
 
